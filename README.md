@@ -1,7 +1,7 @@
 Serverside sync (in Java / on appengine) for persistencejs - blank project
 ==========================================================================
 
-This is just a blank project, containing only all the necessary boilerplate stuff, for getting started easily ...
+This is a blank project, containing only all the necessary boilerplate stuff, for getting you started easily ...
 
 Requirements: 
 -------------
@@ -9,11 +9,10 @@ Requirements:
 
 How to:
 -------
-* Import this project into eclipse
+* Import this project into eclipse, disconnect it from git and rename it.
 * Use the gen-persistencejs-sync task to create synced model and associated controller.
 * Add fields to models as usual, use Sync annotation to mark fields for sync
 * After generating setter/getter for new fields, insert at the setter body a meta function (which checks/sets a dirty field), see example below:
-* start server and point your browser to the server address.
 
 <code>
 	public class MyModel implements Serializable {
@@ -36,4 +35,4 @@ Links:
 ------
 * [persistencejs](http://github.com/zef/persistencejs)
 * [slim3](http://code.google.com/p/slim3)
-* [slim3 persitencejs demo (testsuite)](http://github.com/rsaccon/Slim3PersistenceSync)
+* [slim3 persistencejs demo (testsuite)](http://github.com/rsaccon/Slim3PersistenceSync)
