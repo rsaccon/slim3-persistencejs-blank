@@ -34,6 +34,6 @@ How to:
 
 Links:
 ------
-[persistencejs](http://github.com/zef/persistencejs)
-[slim3](http://code.google.com/p/slim3)
-[slim3 persitencejs demo (testsuite)](http://github.com/rsaccon/Slim3PersistenceSync)
+* [persistencejs](http://github.com/zef/persistencejs)
+* [slim3](http://code.google.com/p/slim3)
+* [slim3 persitencejs demo (testsuite)](http://github.com/rsaccon/Slim3PersistenceSync)
